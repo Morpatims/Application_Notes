@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 import json
-from note import Note
+from App.note import Note
 
 class NotesStorage(ABC):
     @abstractmethod

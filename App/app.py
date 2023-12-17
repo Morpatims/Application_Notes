@@ -1,6 +1,6 @@
 from datetime import datetime
-from storage import NotesStorage
-from note import Note
+from App.storage import NotesStorage
+from App.note import Note
 
 class NotesApp:
     def __init__(self, storage: NotesStorage):
